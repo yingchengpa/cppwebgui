@@ -1,20 +1,4 @@
-# cppwebgui
-Create js desktop applications with cpp web server
-
-
-## Usage with webgui
-
-```c++
-#include "webgui.h"
-
-int main(){
-    webGui(port).run();
-}
-```
-
-Following application using [crow](https://github.com/CrowCpp/Crow) :
-```c++
-#include "crow.h"
+﻿#include "crow.h"
 #include "webgui.h"
 
 int main()
@@ -38,10 +22,3 @@ int main()
 
     app.port(18080).run();
 }
-```
-
-# Thanks
-
-- [flaskwebgui](https://github.com/ClimenteA/flaskwebgui)
-- [tiny-process-library](https://github.com/eidheim/tiny-process-library)
-- [crow](https://github.com/CrowCpp/Crow)
